@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: #000;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  display: block;
+}
+
+.title {
+  color: #000;
+  font-size: 50px;
+  margin-bottom: 24px;
+  text-align: center;
+}
